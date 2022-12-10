@@ -1,0 +1,20 @@
+2022-12-10 15:29:03.803 [info] Extension host with pid 42045 started
+2022-12-10 15:29:03.849 [info] Lock '/home/makarowgr/.vscode-server/data/User/workspaceStorage/cff2b3fd7652b01eb437cabf698adb2d/vscode.lock': Lock acquired.
+2022-12-10 15:29:04.023 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2022-12-10 15:29:04.448 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2022-12-10 15:29:04.450 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2022-12-10 15:29:05.429 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2022-12-10 15:29:05.430 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+2022-12-10 15:29:05.431 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2022-12-10 15:29:05.431 [info] Eager extensions activated
+2022-12-10 15:29:58.305 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:ignore'
+2022-12-10 15:29:58.308 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:ignore'
+2022-12-10 16:01:23.057 [info] ExtensionService#_doActivateExtension ms-vscode.js-debug, startup: false, activationEvent: 'onTerminalProfile:extension.js-debug.debugTerminal'
+2022-12-10 16:42:38.474 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3684
+2022-12-10 16:43:24.695 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3684
+2022-12-10 17:12:59.674 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3686
+2022-12-10 17:36:55.029 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2022-12-10 17:36:55.555 [warning] Using default string since no string found in i18n bundle that has the key: HTML Language Server
+2022-12-10 17:55:59.455 [info] Extension host terminating: renderer disconnected for too long (2)
+2022-12-10 17:55:59.457 [info] Lock '/home/makarowgr/.vscode-server/data/User/workspaceStorage/cff2b3fd7652b01eb437cabf698adb2d/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2022-12-10 17:55:59.518 [info] Extension host with pid 42045 exiting with code 0

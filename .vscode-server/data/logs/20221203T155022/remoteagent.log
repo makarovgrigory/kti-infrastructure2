@@ -1,0 +1,46 @@
+2022-12-03 15:50:23.949 [info] Extension host agent started.
+2022-12-03 15:50:29.433 [warning] No ptyHost heartbeat after 6 seconds
+2022-12-03 15:51:23.005 [info] [127.0.0.1][d5f4822e][ManagementConnection] New connection established.
+2022-12-03 15:51:23.008 [info] [127.0.0.1][32692919][ExtensionHostConnection] New connection established.
+2022-12-03 15:51:23.020 [info] [127.0.0.1][32692919][ExtensionHostConnection] <38701> Launched Extension Host Process.
+2022-12-03 15:51:25.428 [error] CodeExpectedError: Could not find pty on pty host
+    at d._throwIfNoPty (/home/makarowgr/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/vs/platform/terminal/node/ptyHostMain.js:27:7199)
+    at d.updateTitle (/home/makarowgr/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/vs/platform/terminal/node/ptyHostMain.js:27:2931)
+    at Object.call (/home/makarowgr/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/vs/platform/terminal/node/ptyHostMain.js:17:5858)
+    at s.onPromise (/home/makarowgr/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/vs/platform/terminal/node/ptyHostMain.js:15:5833)
+    at s.onRawMessage (/home/makarowgr/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/vs/platform/terminal/node/ptyHostMain.js:15:5216)
+    at /home/makarowgr/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/vs/platform/terminal/node/ptyHostMain.js:15:4502
+    at r.invoke (/home/makarowgr/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/vs/platform/terminal/node/ptyHostMain.js:11:145)
+    at P.deliver (/home/makarowgr/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/vs/platform/terminal/node/ptyHostMain.js:11:2275)
+    at w.fire (/home/makarowgr/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/vs/platform/terminal/node/ptyHostMain.js:11:1853)
+    at process.M (/home/makarowgr/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/vs/platform/terminal/node/ptyHostMain.js:9:21066)
+    at process.emit (node:events:526:28)
+    at emit (node:internal/child_process:938:14)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+2022-12-03 15:53:21.594 [info] [127.0.0.1][d5f4822e][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2022-12-03 15:53:21.656 [info] [127.0.0.1][32692919][ExtensionHostConnection] <38701> Extension Host Process exited with code: 0, signal: null.
+2022-12-03 15:53:21.658 [info] Last EH closed, waiting before shutting down
+2022-12-03 15:53:38.811 [info] Got delay-shutdown request while in shutdown timeout, delaying
+2022-12-03 15:53:38.811 [info] Cancelling previous shutdown timeout
+2022-12-03 15:53:39.127 [info] [127.0.0.1][7fab3ddb][ManagementConnection] New connection established.
+2022-12-03 15:53:39.129 [info] [127.0.0.1][2c25977c][ExtensionHostConnection] New connection established.
+2022-12-03 15:53:39.145 [info] [127.0.0.1][2c25977c][ExtensionHostConnection] <38829> Launched Extension Host Process.
+2022-12-03 15:53:41.717 [error] CodeExpectedError: Could not find pty on pty host
+    at d._throwIfNoPty (/home/makarowgr/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/vs/platform/terminal/node/ptyHostMain.js:27:7199)
+    at d.updateTitle (/home/makarowgr/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/vs/platform/terminal/node/ptyHostMain.js:27:2931)
+    at Object.call (/home/makarowgr/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/vs/platform/terminal/node/ptyHostMain.js:17:5858)
+    at s.onPromise (/home/makarowgr/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/vs/platform/terminal/node/ptyHostMain.js:15:5833)
+    at s.onRawMessage (/home/makarowgr/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/vs/platform/terminal/node/ptyHostMain.js:15:5216)
+    at /home/makarowgr/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/vs/platform/terminal/node/ptyHostMain.js:15:4502
+    at r.invoke (/home/makarowgr/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/vs/platform/terminal/node/ptyHostMain.js:11:145)
+    at P.deliver (/home/makarowgr/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/vs/platform/terminal/node/ptyHostMain.js:11:2275)
+    at w.fire (/home/makarowgr/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/vs/platform/terminal/node/ptyHostMain.js:11:1853)
+    at process.M (/home/makarowgr/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/vs/platform/terminal/node/ptyHostMain.js:9:21066)
+    at process.emit (node:events:526:28)
+    at emit (node:internal/child_process:938:14)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+2022-12-03 15:54:20.846 [info] [127.0.0.1][7fab3ddb][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2022-12-03 15:54:20.919 [info] [127.0.0.1][2c25977c][ExtensionHostConnection] <38829> Extension Host Process exited with code: 0, signal: null.
+2022-12-03 15:54:20.921 [info] Cancelling previous shutdown timeout
+2022-12-03 15:54:20.922 [info] Last EH closed, waiting before shutting down
+2022-12-03 15:59:20.949 [info] Last EH closed, shutting down
