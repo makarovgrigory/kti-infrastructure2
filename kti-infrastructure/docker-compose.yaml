@@ -12,7 +12,7 @@ services:
     depends_on:
       - flask
   flask:
-    image: "makarowga/flask:1.0"
+    image: "makarovga/flask:1.0"
     container_name: flask
     environment:
       - FLASK_DEBUG=True
